@@ -1,0 +1,383 @@
+#loader {
+  border: 12px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 12px solid #136ffb;
+  width: 70px;
+  height: 70px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.middle {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+body {
+  background-color: white;
+  background-image: url(img/Flat-Mountains.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow-x: hidden;
+  font-family: 'Montserrat Light;
+}
+
+.main-font {
+  /* Use Satisfy from google-fonts */
+  font-family: Lemonada;
+}
+
+.container {
+  height: 100%;
+}
+
+.navbar-brand {
+  width: 100px;
+  height: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-brand img {
+  width: 120px;
+  height: 50px;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+.my-navbar li {
+  margin: 0 10px;
+  font-size: 17px;
+}
+
+.my-navbar li a:hover {
+  color: #136ffb;
+  transition: 1s;
+  text-decoration: underline solid currentColor;
+}
+
+.bg-img {
+  width: 100%;
+  height: 700px;
+  background: url(img/3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -5;
+  
+}
+
+.bg-img-listings {
+  width: 100%;
+  height: 700px;
+  background: url(img/8.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -5;
+}
+.bg-img-services {
+  width: 100%;
+  height: 700px;
+  background: url(img/4.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -5;
+}
+.bg-img-about-us {
+  width: 100%;
+  height: 700px;
+  background: url(img/services.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -5;
+}
+.bg-img-contact {
+  width: 100%;
+  height: 700px;
+  background: url(img/contact.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -5;
+}
+
+.intro {
+  width: 50%;
+  color: white;
+  margin: 300px auto;
+  background-color: rgba(16, 14, 15, 0.424);
+  text-align: center;
+  border: none;
+}
+.intro-listings {
+  width: 30%;
+  color: white;
+  margin: 300px auto;
+  background-color: rgba(16, 14, 15, 0.424);
+  text-align: center;
+  border: none;
+}
+
+.inner-navbar {
+  background-color: rgba(11, 11, 11, 0.239);
+  margin-top: 7px;
+}
+
+.inner-navbar a {
+  color: white;
+}
+
+.card-align {
+  width: 80%;
+  margin: 20px auto;
+  position: relative;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.row-center {
+  display: flex;
+  margin: auto;
+}
+.section-one {
+  background-color: transparent;
+}
+
+.section-two {
+  margin: 0;
+  background: url(img/squares.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  position: relative;
+  left: 0;
+  border: none;
+}
+
+.center-text {
+  padding: 30px;
+  margin: 5px auto;
+}
+.image-jumbotron {
+  width: 400px;
+  height: 400px;
+  margin: auto;
+}
+
+.align-img {
+  margin: 10px 30px;
+  background-size: cover;
+  width: 85%;
+  height: 100px;
+}
+.contra {
+  max-width: 250px;
+  height: 350px;
+  margin: 10px auto;
+  padding: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.align-img-agent {
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: 0.5s ease;
+}
+.contra:hover .overlay {
+  height: 20%;
+  transform: scale(1.03);
+}
+
+.contra:hover .blur {
+  opacity: 0.8;
+  transition: 0.5s ease;
+  transform: scale(1.03);
+}
+
+.textt {
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.bg-img2 {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 250px;
+  background: url(img/vieww.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -5;
+}
+.bg-opacity {
+  width: 100%;
+  height: 100%;
+  padding: 50px 0 0 0;
+  color: white;
+  margin: 0 auto;
+  background-color: #1370fb46;
+  border: none;
+}
+
+.footer {
+  
+  width: 100%;
+  height: 250px;
+  background: url(img/squares.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+
+}
+.icons {
+  font-size: 30px;
+  color: white;
+  margin: 0 20px;
+}
+
+.icons:hover {
+  color: black;
+  transition: 1s ease;
+}
+
+.mini-menu {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.mini-menu li {
+  display: inline;
+  margin: 0 5px;
+}
+.mini-menu li a {
+  text-decoration: none;
+  color: white;
+}
+
+.mini-menu li a:hover {
+  color: black;
+  transition: 1s ease;
+}
+.fade {
+  opacity: 1;
+}
+.jawn {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 12px;
+  color: white;
+}
+.jawn a {
+  color: white;
+}
+
+.contact-box {
+  margin-top: 50px;
+}
+.my-navbar a{
+  font-family: "Lato";
+  font-weight: bold;
+}
+
+.blink-me {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes zoom {
+  0% {
+    transform: scale(0, 0);
+  }
+  50% {
+    transform: scale(1.2, 1.2);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+.zoom-in {
+  animation: zoom 2s forwards;
+}
+
+
+@media (min-width: 320px) and (max-width: 990px) {
+  .navbar-brand {
+    margin-left: 0 !important;
+  }
+
+  .intro h1 {
+    font-size: 27px;
+  }
+
+  .intro-listings h1 {
+    font-size: 27px;
+  }
+
+  .card-align h4 {
+    font-size: 18px;
+  }
+  .mini-menu li {
+    display: inline;
+    font-size: 14px;
+  }
+
+  .my-navbar {
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 15px;
+  }
+ 
+  .inner-navbar {
+    background-color: white;
+  }
+  .inner-navbar a {
+    color: currentColor;
+  }
+
+  .inner-navbar a:hover {
+    background-color: rgba(11, 11, 11, 0.301);
+  }
+}
