@@ -1,2 +1,2 @@
-# zanga-web-page
+# zanga
 Front-end Real Estate Website
